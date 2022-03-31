@@ -12,7 +12,7 @@ import tensorflow as tf
 import torch
 from copy import deepcopy
 from textwrap import dedent
-
+# 使用命令行调试时，需要给定环境名称
 
 # Command line args that will go to ExperimentGrid.run, and must possess unique
 # values (therefore must be treated separately).
